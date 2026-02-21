@@ -73,13 +73,13 @@ GET /cards
 
 ![alt text](GET.png)
 
-### 🔹 Put Card
+### Put Card
 
 PUT /cards/:id
 
 ![alt text](PUT.png)
 
-### 🔹 Delete Card
+### Delete Card
 
 DELETE /cards/:id
 
