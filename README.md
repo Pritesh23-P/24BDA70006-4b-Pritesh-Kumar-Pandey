@@ -1,11 +1,13 @@
 # Playing Card Collection REST API
 
-A RESTful API built using **Node.js** and **Express.js** to manage a collection of playing cards.  
+A RESTful API built using Node.js and Express.js to manage a collection of playing cards.  
 This project demonstrates CRUD operations and API testing using Postman.
+
 
 ## Objective
 
 To develop a RESTful API for managing a playing card collection using Express.js and test the endpoints using Postman.
+
 
 ## Features
 
@@ -15,7 +17,8 @@ To develop a RESTful API for managing a playing card collection using Express.js
 - Update a card
 - Delete a card
 - Proper HTTP status codes
-- Modular folder structure (Routes + Controllers)
+- Modular folder structure using routes and controllers
+
 
 ## Tech Stack
 
@@ -24,7 +27,8 @@ To develop a RESTful API for managing a playing card collection using Express.js
 - CORS
 - Postman (for API testing)
 
-## Installation & Setup
+
+## Installation and Setup
 
 ### Clone the Repository
 
@@ -46,6 +50,7 @@ Server will start at:
 
 http://localhost:3000
 
+
 ## API Endpoints
 
 ### Home Route
@@ -56,9 +61,8 @@ GET /
 
 POST /cards
 
-Request Body (JSON):
+Request Body (JSON)
 
-```json
 {
   "suit": "Hearts",
   "rank": "A",
@@ -73,7 +77,7 @@ GET /cards
 
 ![alt text](GET.png)
 
-### Put Card
+### Update Card
 
 PUT /cards/:id
 
@@ -87,16 +91,18 @@ DELETE /cards/:id
 
 ## Testing
 
-All API endpoints were tested using **Postman**.
+All API endpoints were tested using Postman.
+
 
 ## REST Concepts Implemented
 
 - Stateless architecture
 - Resource-based routing
-- HTTP methods (GET, POST, PUT, DELETE)
-- Proper status codes (200, 201, 400, 404)
+- HTTP methods: GET, POST, PUT, DELETE
+- Proper status codes: 200, 201, 200, 200
+
 
 ## Conclusion
 
 This project successfully demonstrates the implementation of a RESTful API using Express.js.  
-It performs CRUD operations on a playing card collection and follows clean code structure using routes and controllers.
+It performs CRUD operations on a playing card collection and follows a clean code structure using routes and controllers.
